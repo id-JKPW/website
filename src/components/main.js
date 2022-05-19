@@ -11,9 +11,9 @@ import Exp from './exp';
 
 const Main = () => (
   <Switch>
-    <Route path="/website" component = {LandingPage} />
-    <Route path="/website/aboutme" component = {AboutMe} />
-    <Route path="/website/exp" component = {Exp} />
+    <Route exact path="/" component = {LandingPage} />
+    <Route path="/aboutme" component = {AboutMe} />
+    <Route path="/exp" component = {Exp} />
   </Switch>
 )
 
