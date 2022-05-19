@@ -1,0 +1,94 @@
+/*header css*/
+.header-color{
+  background: #2c3e50 !important;
+}
+.active-link{
+  background-color: #606c88;
+}
+
+/*landing page css*/
+.landing-grid{
+  background: #bdc3c7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #bdc3c7, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #bdc3c7, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 773px;
+}
+.home-img01{
+  height: 200px;
+  padding-right: 0px;
+  border: solid #606c88;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-top: 100px;
+  opacity: 0.7;
+}
+.home-title-text{
+  color: white;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.7);
+  width: 80%;
+  margin: auto;
+  border: solid #606c88;
+  border-radius: 15px;
+}
+.home-title-text h1{
+  font-size: 40px;
+}
+.home-title-text h2{
+  font-size: 30px;
+  margin-top: -20px;
+}
+.home-title-text p{
+  font-size: 20px;
+}
+
+/*about me page css*/
+.aboutme-body{
+  background: #bdc3c7;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  padding-top: 5%;
+  overflow: hidden;
+  }
+.aboutme-grid{
+  width: 80%;
+  //height: 500px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 15px;
+  color: white;
+  margin-bottom: 25px;
+}
+.aboutme-text h2{
+}
+.aboutme-text p{
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+/*Experience and achievements page css*/
+.exp-body{
+  background: #bdc3c7;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  padding-top: 5%;
+  overflow: hidden;
+  }
+.exp-grid{
+  width: 80%;
+  //height: 500px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 15px;
+  color: white;
+  margin-bottom: 25px;
+}
+.exp-text h2{
+}
+.exp-text p{
+  margin-left: 20px;
+  font-size: 20px;
+}
