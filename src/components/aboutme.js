@@ -11,8 +11,8 @@ class AboutMe extends Component {
             <div className="aboutme-text">
               <h2> About Me </h2>
               <p> Hello, welcome to my website. As you may have noticed already, my name is Jimmy. </p>
-              <p> My interests is in computer security, but I am also interest in web development. Currently looking for some casual or part time job the can I can experience both aspects of IT work.</p>
-              <p> I am currently in my final year for my Commerce and IT Bachelor's degree at Monash. </p>
+              <p> My interests is in computer security, but I am also interest in web development.</p>
+              <p> I have completed my Commerce and IT Bachelor's degree at Monash. </p>
               <p> My major for commerce is finance and major for IT is computer networks and security. </p>
             </div>
           </Cell>

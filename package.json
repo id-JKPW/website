@@ -1,5 +1,5 @@
 {
-  "homepage" : "https://id-JKPW.github.io/id-JKPW.github.io",
+  "homepage": "https://id-JKPW.github.io/website",
   "name": "portfolio-website",
   "version": "0.1.0",
   "private": true,
@@ -14,6 +14,8 @@
     "react-scripts": "3.4.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -33,5 +35,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
